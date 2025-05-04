@@ -1,0 +1,13 @@
+.git
+.gitignore
+node_modules
+spec
+src
+*.log
+.clinerules
+deno.json
+deno.lock
+tsconfig.json
+tsconfig.build.json
+*.md
+!README.md

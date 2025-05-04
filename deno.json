@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "lint": "ts-standard -p tsconfig.json",
+    "test": "vitest --run",
+    "compile": "deno check src/*.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "pack": "mkdir -p pkg && npm pack --pack-destination pkg",
+    "prepare-gas": "rollup -c rollup.config.js && ./bin/prepare-gas"
+  }
+}

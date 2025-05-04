@@ -1,0 +1,4 @@
+"Record number","サンプルテキスト","テキスト項目","複[]数選択[t1opt1]","複[]数選択[t1opt2]","複[]数選択[t1opt3]","複[]数選択[t1opt4]","Table1_Check box[t1chk1]","Table1_Check box[t1chk2]","単純複数選択[indopt1]","単純複数選択[indopt2]","単純複数選択[indopt3]","単純複数選択[indopt4]","Text","Drop-down","Multi-choice[t2opt1]","Multi-choice[t2opt2]","Multi-choice[t2opt3]","Multi-choice[t2opt4]"
+"1","","あああ",,"1","1",,,,,"1",,"1",,,,,,
+"1","","いいい","1",,,,,"1",,"1",,"1",,,,,,
+"1","",,,,,,,,,"1",,"1","テキスト","dopt2",,"1",,"1"

@@ -1,0 +1,15 @@
+*~
+*.bak
+
+.env
+.envrc
+
+.DS_Store
+node_modules/
+coverage/
+dist/
+pkg/
+work/
+*.tgz
+*.md
+!README.md

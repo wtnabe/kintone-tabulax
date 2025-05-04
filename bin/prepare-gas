@@ -1,0 +1,24 @@
+#! /bin/bash
+
+#
+# strip import / export statement for raw Google Apps Script
+#
+
+awk '
+BEGIN {
+  true = 1
+  false = 0
+  body = false
+}
+/^ +\/\* -- end of createKintoneTabulax -- \*\/$/ {
+  body = false
+}
+
+{
+  if (body) print
+}
+
+/^ +\/\* -- begin of KintoneTabulax -- \*\/$/ {
+  body = true
+}
+' ./dist/kintone-tabulax.gas.js > out && mv out ./dist/kintone-tabulax.gas.js
